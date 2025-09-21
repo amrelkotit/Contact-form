@@ -40,7 +40,6 @@ Contact-form/
 
 If you want to try it, click on [https://amrelkotit.github.io/Contact-form/contact.html](https://amrelkotit.github.io/Contact-form/contact.html)
 
-## License
 
 ## License
 
