@@ -36,6 +36,12 @@ Contact-form/
 2. Click “submit”.
 3. You’ll be redirected to a confirmation page.
 
+## Live Demo
+
+If you want to try it, click on [https://amrelkotit.github.io/Contact-form/contact.html](https://amrelkotit.github.io/Contact-form/contact.html)
+
+## License
+
 ## License
 
 MIT License
