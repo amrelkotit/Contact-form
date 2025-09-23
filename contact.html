@@ -1,31 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <style>
-    body {
-      background-color: #0f0000 ;
-      }</style>
-   <div class="main" id="main">
-        <main > Welcome </main>
-
+  <div class="wrapper">
+    <div class="header">
+      <h1>Contact Us</h1>
+      <p>We’d love to hear from you</p>
     </div>
     <div class="contact">
-        <label for="name"><p>Full Name :</p></label><br>
-        <input id="name"> <br>
-        <label for="email"><p>Email :</p></label><br>
-        <input id="email"> <br>
-        <label for="subject"><p>Subject :</p></label><br>
-        <input id="subject"> <br>
-        <label for="message"><p>Message :</p></label><br>
-        <input id="message"> <br>
-        <button ID="submitBtn">submit</button>
+      <form id="contactForm">
+        <input id="name" type="text" placeholder="Full Name" required>
+        <input id="email" type="email" placeholder="Email Address" required>
+        <input id="subject" type="text" placeholder="Subject" required>
+        <textarea id="message" rows="5" placeholder="Your Message..." required></textarea>
+        <button id="submitBtn" type="submit">Send Message</button>
+        <p id="feedback" class="hidden"></p>
+      </form>
     </div>
-    <script src="script.js"></script>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
